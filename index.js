@@ -12,7 +12,7 @@ connectDB();
 const coreOptions = {
     origin:process.env.ORIGIN,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true
+    credentials: true
 }
 app.use(cors(coreOptions))
 
